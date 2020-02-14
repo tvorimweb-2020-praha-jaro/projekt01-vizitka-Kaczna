@@ -1,0 +1,67 @@
+h1, h2 {
+    font-family: 'Muli', sans-serif;
+    color: black;
+}
+
+h1{
+    padding: 150px 30px;
+    background-color: #faf0e6;
+    background-position: center;
+	background-size: auto;
+    margin: 0;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+  }
+
+body {
+    font-family: Raleway;
+    font-size: 1.8rem;
+    
+    
+}
+
+a:hover{color:grey; background-color:#f5f5f5;
+}
+
+
+footer {
+    padding: 0.5rem 0;
+    background-color: #282425;
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    padding: 10rem 15%;
+    background-color: #fff5ee;
+    overflow: auto;
+        
+}
+
+.projekt, .kontakty{
+    background-color: #faf0e6;
+}
+
+
+.foto-omne{
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px 50px 50px 50px;
+    border: 2px solid #756158;
+  }
+
+  .foto-projekt{
+    width: 500px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #756158;    
+  }
+
+  
