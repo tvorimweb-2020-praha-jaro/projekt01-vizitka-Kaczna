@@ -1,5 +1,6 @@
 header {
     background-color: #faf0e6;
+    border: 0.5px solid #756159
 }
 
 
@@ -8,21 +9,20 @@ h1, h2 {
     color: black;
 }
 
-h1{
-    padding: 150px 30px;
+h1 {
+    padding: 100px 30px;
     margin: 0;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
 body {
     font-family: Raleway;
-    font-size: 1.8rem;
-    
+    font-size: 1.2rem;   
     
 }
 
@@ -37,35 +37,74 @@ footer {
     background-color: #282425;
     color: #ffffff;
     text-align: center;
+    
 }
 
 section {
-    padding: 15rem 15%;
+    padding: 10rem;
     background-color: #fff5ee;
-    overflow: auto;
+    max-width: 80%
         
 }
 
 .projekt, .kontakty{
     background-color: #faf0e6;
+    border: 0.5px solid #756158;
+}
+
+.omne, .kamdal {
+    border: 0.5px solid #756159;
 }
 
 
 .foto-omne{
-    width: 350px;
+    width: 300px;
     float: left;
-    margin-right: 30px;
+    margin-right: 50px;
     margin-bottom: 30px;
     border-radius: 50px;
     border: 2px solid #756158;
   }
 
   .foto-projekt{
-    width: 500px;
+    width: 400px;
     float: right;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    border: 2px solid #756158;    
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #756158;
   }
+
+  .clearfix {
+      display: flow-root;
+  }
+
+  .navigace li {
+    display: inline-block;
+    
+}
+
+.navigace {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+	background-color: #282425;
+	border-top: 1px solid #9c8175;
+}
+
+.navigace a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.navigace a:hover {
+    background-color: #95a5a6;
+}
+
+.navigace a:focus {
+    background-color: #95a5a6;
+}
+
 
   
